@@ -24,16 +24,16 @@
 ### 🎯获取单个文章爬取转markdown
 ```java
 命令: 
-java -jar -u[文章URL] -m[平台类型] -s[保存路径]   //平台类型 1是csdn 2是简书
+java -jar climbCSToMd-1.0.jar -u[文章URL] -m[平台类型] -s[保存路径]   //平台类型 1是csdn 2是简书
 示例:
-java -jar -u https://blog.csdn.net/weixin_66461496/article/details/143449370 -m 1 -s E:\temp\markdown
+java -jar climbCSToMd-1.0.jar -u https://blog.csdn.net/weixin_66461496/article/details/143449370 -m 1 -s E:\temp\markdown
 ```
 ### 🎯获取指定文件里的URL批量爬取转markdown
 ```java
 命令:
-java -jar -m[平台类型] -s[保存路径] -f[文件URL路径]
+java -jar climbCSToMd-1.0.jar -m[平台类型] -s[保存路径] -f[文件URL路径]
 示例:
-java -jar -m 1 -s E:\temp\markdown -f E:\temp\markdown\urls.txt
+java -jar climbCSToMd-1.0.jar -m 1 -s E:\temp\markdown -f E:\temp\markdown\urls.txt
 
 ```
 ### 🎯自定义摘要信息批量爬取转markdown
@@ -42,9 +42,9 @@ java -jar -m 1 -s E:\temp\markdown -f E:\temp\markdown\urls.txt
 
 ```
 命令:
-java -jar -m[平台类型] -s[保存路径] -j
+java -jar climbCSToMd-1.0.jar -m[平台类型] -s[保存路径] -j
 示例:
-java -jar -m 1 -s \temp\markdown -j
+java -jar climbCSToMd-1.0.jar -m 1 -s \temp\markdown -j
 ```
 
 ![](https://soobsj.oss-cn-hangzhou.aliyuncs.com/images/202411082359732.png)
