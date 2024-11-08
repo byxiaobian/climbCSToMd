@@ -1,0 +1,16 @@
+[
+	{
+		"url": "xxxx.blog",
+		"tag": "书签",
+		"categorie": "分类",
+		"keywords": "关键字",
+		"description": "描述"
+	},
+	{
+		"url": "zzz.blog",
+		"tag": "书签信息",
+		"categorie": "分类信息",
+		"keywords": "关键字信息",
+		"description": "描述信息"
+	}
+]
