@@ -51,6 +51,16 @@ java -jar climbCSToMd-1.0.jar -m 1 -s \temp\markdown -j
 
 ![](https://soobsj.oss-cn-hangzhou.aliyuncs.com/images/202411082359732.png)
 
+
+
+📣**文章摘要效果**
+
+![img](https://soobsj.oss-cn-hangzhou.aliyuncs.com/images/202411090849344.png)
+
+📣**文章效果**
+
+![](https://soobsj.oss-cn-hangzhou.aliyuncs.com/images/202411090845377.png)
+
 ### 🎯图床采用阿里云OSS 配置
 
 > 在软件当前目录下 有一个 tc.conf 的文件 , 里面填写相对应的OSS信息即可 , enabled为开启关闭状态 !
